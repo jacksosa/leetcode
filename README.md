@@ -5,33 +5,33 @@ This Java Maven project contains solutions to various LeetCode problems. Each so
 ## Project Structure
 
 The project structure is organized as follows:
-
+```
 ├── src
-│ ├── main
-│ │ └── java
-│ │ └── uk
-│ │ └── co
-│ │ └── trinitylogic
-│ │ └── leetcode
-│ │ └── soultions
-│ │ ├── SolutionLengthOfLastWord58.java
-│ │ ├── SolutionAnotherProblem.java
-│ │ └── ...
-│ └── test
-│ └── java
-│ └── uk
-│ └── co
-│ └── trinitylogic
-│ └── leetcode
-│ └── soultions
-│ ├── SolutionLengthOfLastWord58Test.java
-│ ├── SolutionAnotherProblemTest.java
-│ └── ...
+│   ├── main
+│   │   └── java
+│   │       └── uk
+│   │           └── co
+│   │               └── trinitylogic
+│   │                   └── leetcode
+│   │                       └── soultions
+│   │                           ├── SolutionLengthOfLastWord58.java
+│   │                           ├── SolutionAnotherProblem.java
+│   │                           └── ...
+│   └── test
+│       └── java
+│           └── uk
+│               └── co
+│                   └── trinitylogic
+│                       └── leetcode
+│                           └── soultions
+│                               ├── SolutionLengthOfLastWord58Test.java
+│                               ├── SolutionAnotherProblemTest.java
+│                               └── ...
 ├── target
 ├── .gitignore
 ├── pom.xml
 └── README.md
-
+```
 
 ## LeetCode Solution Classes
 
