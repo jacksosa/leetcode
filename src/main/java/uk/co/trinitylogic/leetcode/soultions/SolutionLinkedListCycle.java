@@ -7,6 +7,8 @@ import java.util.Set;
 
 
 public class SolutionLinkedListCycle {
+
+    // https://leetcode.com/problems/linked-list-cycle/
     public boolean hasCycle(ListNode head) {
         if (head == null || head.next == null) return false;
         Set<ListNode> memo = new HashSet<>();
