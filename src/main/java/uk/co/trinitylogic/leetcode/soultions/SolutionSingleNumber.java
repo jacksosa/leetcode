@@ -8,11 +8,11 @@ public class SolutionSingleNumber {
     // https://leetcode.com/problems/single-number/
 
     public int singleNumber(int[] nums) {
-        int xor = nums[0];
-        for (int i = 1; i < nums.length; i++) {
-            xor ^= nums[i];
+        int r = 0;
+        for (int num : nums) {
+            r ^= num;
         }
-        return xor;
+        return r;
     }
 
     public int singleNumberMemo(int[] nums) {
