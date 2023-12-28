@@ -1,6 +1,6 @@
 package uk.co.trinitylogic.leetcode.soultions;
 
-public class SolutionValidPalindrome {
+public class SolutionValidPalindrome125 {
 
     // https://leetcode.com/problems/valid-palindrome/
 

@@ -2,7 +2,7 @@ package uk.co.trinitylogic.leetcode.soultions;
 
 import uk.co.trinitylogic.leetcode.soultions.models.ListNode;
 
-public class SolutionIntersectionOfTwoLinkedLists {
+public class SolutionIntersectionOfTwoLinkedLists160 {
 
     // https://leetcode.com/problems/intersection-of-two-linked-lists/
 

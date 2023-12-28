@@ -2,7 +2,7 @@ package uk.co.trinitylogic.leetcode.soultions;
 
 import uk.co.trinitylogic.leetcode.soultions.models.ListNode;
 
-public class SolutionRemoveDuplicatesFromSortedList {
+public class SolutionRemoveDuplicatesFromSortedList83 {
 
     // https://leetcode.com/problems/remove-duplicates-from-sorted-list/
 

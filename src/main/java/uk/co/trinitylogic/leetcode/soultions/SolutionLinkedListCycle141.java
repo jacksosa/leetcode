@@ -6,7 +6,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 
-public class SolutionLinkedListCycle {
+public class SolutionLinkedListCycle141 {
 
     // https://leetcode.com/problems/linked-list-cycle/
     public boolean hasCycle(ListNode head) {

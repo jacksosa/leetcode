@@ -5,7 +5,7 @@ import uk.co.trinitylogic.leetcode.soultions.models.ListNode;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class SolutionLinkedListCycleTest {
+class SolutionLinkedListCycle141Test {
 
     @Test
     void hasCycle_Example_1() {
@@ -16,7 +16,7 @@ class SolutionLinkedListCycleTest {
         node4.next = node2;
         boolean output = true;
         //Explanation: There is a cycle in the linked list, where the tail connects to the 1st node (0-indexed).
-        SolutionLinkedListCycle target = new SolutionLinkedListCycle();
+        SolutionLinkedListCycle141 target = new SolutionLinkedListCycle141();
         boolean result = target.hasCycle(input);
         assertEquals(output, result);
     }
@@ -26,7 +26,7 @@ class SolutionLinkedListCycleTest {
         ListNode input = new ListNode(2);
         input.next = new ListNode(1, input);
         boolean output = true;
-        SolutionLinkedListCycle target = new SolutionLinkedListCycle();
+        SolutionLinkedListCycle141 target = new SolutionLinkedListCycle141();
         boolean result = target.hasCycle(input);
         assertEquals(output, result);
     }
@@ -35,7 +35,7 @@ class SolutionLinkedListCycleTest {
     void hasCycle_Example_3() {
         ListNode input = new ListNode(1);
         boolean output = false;
-        SolutionLinkedListCycle target = new SolutionLinkedListCycle();
+        SolutionLinkedListCycle141 target = new SolutionLinkedListCycle141();
         boolean result = target.hasCycle(input);
         assertEquals(output, result);
     }
@@ -44,7 +44,7 @@ class SolutionLinkedListCycleTest {
     void hasCycle_Example_4() {
         ListNode input = null;
         boolean output = false;
-        SolutionLinkedListCycle target = new SolutionLinkedListCycle();
+        SolutionLinkedListCycle141 target = new SolutionLinkedListCycle141();
         boolean result = target.hasCycle(input);
         assertEquals(output, result);
     }
@@ -53,7 +53,7 @@ class SolutionLinkedListCycleTest {
     void hasCycle_Example_5() {
         ListNode input = new ListNode(1, new ListNode(2));
         boolean output = false;
-        SolutionLinkedListCycle target = new SolutionLinkedListCycle();
+        SolutionLinkedListCycle141 target = new SolutionLinkedListCycle141();
         boolean result = target.hasCycle(input);
         assertEquals(output, result);
     }
@@ -70,7 +70,7 @@ class SolutionLinkedListCycleTest {
         }
         boolean output = false;
         //Explanation: There is a cycle in the linked list, where the tail connects to the 1st node (0-indexed).
-        SolutionLinkedListCycle target = new SolutionLinkedListCycle();
+        SolutionLinkedListCycle141 target = new SolutionLinkedListCycle141();
         boolean result = target.hasCycle(input);
         assertEquals(output, result);
     }

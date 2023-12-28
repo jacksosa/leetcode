@@ -6,7 +6,7 @@ import uk.co.trinitylogic.leetcode.soultions.models.ListNode;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNull;
 
-class SolutionIntersectionOfTwoLinkedListsTest {
+class SolutionIntersectionOfTwoLinkedLists160Test {
 
     @Test
     void getIntersectionNode_Example_1() {
@@ -32,7 +32,7 @@ class SolutionIntersectionOfTwoLinkedListsTest {
         // (2nd node in A and 3rd node in B) are different node references.
         // In other words, they point to two different locations in memory, while the nodes with value 8 in
         // A and B (3rd node in A and 4th node in B) point to the same location in memory.
-        SolutionIntersectionOfTwoLinkedLists target = new SolutionIntersectionOfTwoLinkedLists();
+        SolutionIntersectionOfTwoLinkedLists160 target = new SolutionIntersectionOfTwoLinkedLists160();
         ListNode result = target.getIntersectionNode(listA, listB);
         assertEquals(node8, result);
     }
@@ -47,7 +47,7 @@ class SolutionIntersectionOfTwoLinkedListsTest {
         listA.next = nodeA6;
         nodeA6.next = nodeA4;
         listB.next = nodeB5;
-        SolutionIntersectionOfTwoLinkedLists target = new SolutionIntersectionOfTwoLinkedLists();
+        SolutionIntersectionOfTwoLinkedLists160 target = new SolutionIntersectionOfTwoLinkedLists160();
         ListNode result = target.getIntersectionNode(listA, listB);
         assertNull(result);
     }
@@ -55,7 +55,7 @@ class SolutionIntersectionOfTwoLinkedListsTest {
     @Test
     void getIntersectionNode_Example_3() {
         ListNode listA = new ListNode(1);
-        SolutionIntersectionOfTwoLinkedLists target = new SolutionIntersectionOfTwoLinkedLists();
+        SolutionIntersectionOfTwoLinkedLists160 target = new SolutionIntersectionOfTwoLinkedLists160();
         ListNode result = target.getIntersectionNode(listA, null);
         assertNull(result);
     }
@@ -63,7 +63,7 @@ class SolutionIntersectionOfTwoLinkedListsTest {
     @Test
     void getIntersectionNode_Example_4() {
         ListNode node1 = new ListNode(1);
-        SolutionIntersectionOfTwoLinkedLists target = new SolutionIntersectionOfTwoLinkedLists();
+        SolutionIntersectionOfTwoLinkedLists160 target = new SolutionIntersectionOfTwoLinkedLists160();
         ListNode result = target.getIntersectionNode(node1, node1);
         assertEquals(node1, result);
     }

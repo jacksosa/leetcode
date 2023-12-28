@@ -6,7 +6,7 @@ import uk.co.trinitylogic.leetcode.soultions.models.ListNode;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNull;
 
-class SolutionRemoveDuplicatesFromSortedListTest {
+class SolutionRemoveDuplicatesFromSortedList83Test {
 
     @Test
     void deleteDuplicates_Example_1() {
@@ -20,7 +20,7 @@ class SolutionRemoveDuplicatesFromSortedListTest {
 
         String output = "1 : 2";
 
-        SolutionRemoveDuplicatesFromSortedList target = new SolutionRemoveDuplicatesFromSortedList();
+        SolutionRemoveDuplicatesFromSortedList83 target = new SolutionRemoveDuplicatesFromSortedList83();
         ListNode result = target.deleteDuplicates(input);
         assertEquals(output, result.toString());
     }
@@ -41,14 +41,14 @@ class SolutionRemoveDuplicatesFromSortedListTest {
 
         String output = "1 : 2 : 3";
 
-        SolutionRemoveDuplicatesFromSortedList target = new SolutionRemoveDuplicatesFromSortedList();
+        SolutionRemoveDuplicatesFromSortedList83 target = new SolutionRemoveDuplicatesFromSortedList83();
         ListNode result = target.deleteDuplicates(input);
         assertEquals(output, result.toString());
     }
 
     @Test
     void deleteDuplicates_Example_3() {
-        SolutionRemoveDuplicatesFromSortedList target = new SolutionRemoveDuplicatesFromSortedList();
+        SolutionRemoveDuplicatesFromSortedList83 target = new SolutionRemoveDuplicatesFromSortedList83();
         ListNode result = target.deleteDuplicates(null);
         assertNull(result);
     }
@@ -65,7 +65,7 @@ class SolutionRemoveDuplicatesFromSortedListTest {
 
         String output = "1";
 
-        SolutionRemoveDuplicatesFromSortedList target = new SolutionRemoveDuplicatesFromSortedList();
+        SolutionRemoveDuplicatesFromSortedList83 target = new SolutionRemoveDuplicatesFromSortedList83();
         ListNode result = target.deleteDuplicates(input);
         assertEquals(output, result.toString());
     }

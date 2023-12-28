@@ -2,7 +2,7 @@ package uk.co.trinitylogic.leetcode.soultions;
 
 import uk.co.trinitylogic.leetcode.soultions.models.TreeNode;
 
-public class SolutionPathSum {
+public class SolutionPathSum112 {
 
     // https://leetcode.com/problems/path-sum/
 

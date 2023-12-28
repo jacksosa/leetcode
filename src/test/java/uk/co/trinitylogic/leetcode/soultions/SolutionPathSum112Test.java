@@ -5,7 +5,7 @@ import uk.co.trinitylogic.leetcode.soultions.models.TreeNode;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class SolutionPathSumTest {
+class SolutionPathSum112Test {
 
     @Test
     void hasPathSum_Example_1() {
@@ -38,7 +38,7 @@ class SolutionPathSumTest {
         boolean output = true;
         // Explanation: The root-to-leaf path with the target sum is shown.
 
-        SolutionPathSum target = new SolutionPathSum();
+        SolutionPathSum112 target = new SolutionPathSum112();
         boolean result = target.hasPathSum(input1, input2);
 
         assertEquals(output, result);
@@ -50,7 +50,7 @@ class SolutionPathSumTest {
         boolean output = false;
         // Explanation: Since the tree is empty, there are no root-to-leaf paths.
 
-        SolutionPathSum target = new SolutionPathSum();
+        SolutionPathSum112 target = new SolutionPathSum112();
         boolean result = target.hasPathSum(null, input2);
 
         assertEquals(output, result);
@@ -65,7 +65,7 @@ class SolutionPathSumTest {
         int input2 = 2;
         boolean output = false;
 
-        SolutionPathSum target = new SolutionPathSum();
+        SolutionPathSum112 target = new SolutionPathSum112();
         boolean result = target.hasPathSum(input1, input2);
 
         assertEquals(output, result);

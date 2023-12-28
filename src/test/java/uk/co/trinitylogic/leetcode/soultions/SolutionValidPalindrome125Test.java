@@ -4,14 +4,14 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class SolutionValidPalindromeTest {
+class SolutionValidPalindrome125Test {
 
     @Test
     void isPalindrome_Example_1() {
         String input = "A man, a plan, a canal: Panama";
         boolean output = true;
         // Explanation: "amanaplanacanalpanama" is a palindrome.
-        SolutionValidPalindrome target = new SolutionValidPalindrome();
+        SolutionValidPalindrome125 target = new SolutionValidPalindrome125();
         boolean result = target.isPalindrome(input);
         assertEquals(output, result);
     }
@@ -21,7 +21,7 @@ class SolutionValidPalindromeTest {
         String input = "race a car";
         boolean output = false;
         // Explanation: "raceacar" is not a palindrome.
-        SolutionValidPalindrome target = new SolutionValidPalindrome();
+        SolutionValidPalindrome125 target = new SolutionValidPalindrome125();
         boolean result = target.isPalindrome(input);
         assertEquals(output, result);
     }
@@ -32,7 +32,7 @@ class SolutionValidPalindromeTest {
         boolean output = true;
         // Explanation: s is an empty string "" after removing non-alphanumeric characters.
         // Since an empty string reads the same forward and backward, it is a palindrome.
-        SolutionValidPalindrome target = new SolutionValidPalindrome();
+        SolutionValidPalindrome125 target = new SolutionValidPalindrome125();
         boolean result = target.isPalindrome(input);
         assertEquals(output, result);
     }
@@ -41,7 +41,7 @@ class SolutionValidPalindromeTest {
     void isPalindrome_Example_4() {
         String input = "0P";
         boolean output = false;
-        SolutionValidPalindrome target = new SolutionValidPalindrome();
+        SolutionValidPalindrome125 target = new SolutionValidPalindrome125();
         boolean result = target.isPalindrome(input);
         assertEquals(output, result);
     }

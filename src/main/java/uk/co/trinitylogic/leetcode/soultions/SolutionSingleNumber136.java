@@ -3,7 +3,7 @@ package uk.co.trinitylogic.leetcode.soultions;
 import java.util.HashMap;
 import java.util.Map;
 
-public class SolutionSingleNumber {
+public class SolutionSingleNumber136 {
 
     // https://leetcode.com/problems/single-number/
 
