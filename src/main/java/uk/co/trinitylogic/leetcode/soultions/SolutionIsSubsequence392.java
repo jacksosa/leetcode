@@ -2,7 +2,7 @@ package uk.co.trinitylogic.leetcode.soultions;
 
 public class SolutionIsSubsequence392 {
 
-    // https://leetcode.com/problems/is-subsequence/?envType=study-plan-v2&envId=top-interview-150
+    // https://leetcode.com/problems/is-subsequence/
 
     public boolean isSubsequence(String s, String t) {
         char[] scs = s.toCharArray();

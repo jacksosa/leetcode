@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class SolutionRansomNote383 {
 
-    // https://leetcode.com/problems/ransom-note/?envType=study-plan-v2&envId=top-interview-150
+    // https://leetcode.com/problems/ransom-note/
 
     public boolean canConstruct(String ransomNote, String magazine) {
         int[] counter = new int[128];
