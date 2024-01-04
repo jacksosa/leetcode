@@ -3,7 +3,13 @@ package uk.co.trinitylogic.leetcode.soultions;
 import java.util.ArrayDeque;
 import java.util.Deque;
 
-public class SolutionImplementStackUsingQueues {
+public class SolutionImplementStackUsingQueues225 {
+
+    // https://leetcode.com/problems/implement-stack-using-queues/
+
+    private SolutionImplementStackUsingQueues225() {
+        // do nothing
+    }
 
     /**
      * Your MyStack object will be instantiated and called as such:
