@@ -1,0 +1,19 @@
+package uk.co.trinitylogic.leetcode.soultions;
+
+public class SolutionNthTribonacciNumber1137 {
+
+    // https://leetcode.com/problems/n-th-tribonacci-number/
+
+    public int tribonacci(int n) {
+        int a = 0, b = 1, c = 1;
+        while (n > 0) {
+            int d = a + b + c;
+            a = b;
+            b = c;
+            c = d;
+            n--;
+        }
+        return a;
+    }
+
+}
