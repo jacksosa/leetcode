@@ -2,6 +2,8 @@ package uk.co.trinitylogic.leetcode.soultions;
 
 public class SolutionRotateArray189 {
 
+    // https://leetcode.com/problems/rotate-array/
+
     public void rotate(int[] nums, int k) {
         int l = nums.length;
         int[] r = new int[l];
